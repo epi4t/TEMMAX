@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,maximum-scale=1,user-scalable=0"
+    />
+    <meta name="theme-color" content="black" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>QR DODE</title>
+    <style>
+      .icon-bar {
+        width: 100%; /* Full-width */
+        background-color: #555555; /* Dark-grey background */
+        overflow: auto; /* Overflow due to float */
+      }
+      .icon-bar a {
+        float: left; /* Float links side by side */
+        text-align: center; /* Center-align text */
+        width: 50%; /* Equal width (5 icons with 20% width each = 100%) */
+        padding: 6px 0; /* Some top and bottom padding */
+        color: white; /* White text color */
+        font-size: 30px; /* Increased font size */
+      }
+      .active {
+        background-color: #04aa6d; /* Add an active/current color */
+      }
+    </style>
+  </head>
+  <body style="background-color: black; color: white">
+    <center>
+      <div class="icon-bar">
+        <a href="index.html">
+          <img
+            src="https://cdn.glitch.global/94dd8a3d-a114-49fa-b446-719d589e9e83/DDF87E71-45EA-40F0-8E37-815BCBD3668E.png?v=1688404476064"
+            width="25%" style="padding-top:8px"
+          />
+        </a>
+        <a class="active" href="main2.html"><img
+            src="https://cdn.glitch.global/94dd8a3d-a114-49fa-b446-719d589e9e83/D8A319BF-50EE-45C3-A581-2C58CCAE2C7A.png?v=1688405357542"
+            width="25%" style="padding-top:8px"
+          /></a>
+      </div>
+      <iframe
+        id="app"
+        src="qrcode.html"
+        frameborder="0"
+        scrolling="no"
+        style="width: 100%; height: 650px"
+      >
+      </iframe>
+    </center>
+  </body>
+</html>
